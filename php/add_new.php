@@ -8,15 +8,18 @@
 </head>
 <body>
     <header>
-        <nav>
-            <span>MealMaster</span>
-            <div>
-                <a href="#">Search</a>
-                <a href="#">Home</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Login</a>
-            </div>
-        </nav>
+        <div>
+        <img id = "logo" src="public/images/logo.png" alt="Logo name: Master Recipes" width="112" height="73" >
+            <nav>
+            <ul class="ulContainer">
+                <li><a class="item" href="index.html"><strong>HOME</strong></a></li>
+                <li><a class="item" href="search.html"><strong>SEARCH</strong></a></li>
+                <!-- <li><a class="item" href="article.html"><strong>ARTICLE</strong></a></li> -->
+                <li><a class="item" href="contact.html"><strong>CONTACT</strong></a></li>
+                <li><a class="item" href="account.html"><strong>LOGIN</strong></a></li>
+            </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <form>
